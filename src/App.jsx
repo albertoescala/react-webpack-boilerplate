@@ -1,5 +1,6 @@
-import React, { Component } from "react";
-import ReactDOM from "react-dom";
+import React, { Component } from 'react';
+import ReactDOM from 'react-dom';
+import './main.css';
 
 class App extends Component {
   state = {};
@@ -7,11 +8,11 @@ class App extends Component {
   render() {
     return (
       <div>
-        <p> React here! </p>
+        <p>React here!</p>
       </div>
     );
   }
 }
 
 export default App;
-ReactDOM.render(<App />, document.getElementById("root"));
+ReactDOM.render(<App />, document.getElementById('root'));
