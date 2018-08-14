@@ -1,7 +1,7 @@
 {
-  "name": "webpack-init",
+  "name": "react-webpack-boilerplate",
   "version": "1.0.0",
-  "description": "webpack",
+  "description": "webpack boilerplate",
   "main": "App.jsx",
   "author": "Alberto Escala",
   "license": "MIT",
