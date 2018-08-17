@@ -13,7 +13,12 @@
     "prettier"
   ],
   "rules": {
-    "prettier/prettier": ["error"]
+    "import/no-unresolved": [0],
+    "max-len": ["error", {
+      "code": 80,
+      "ignoreUrls": true
+    }],
+    "no-unexpected-multiline": ["error"]
   },
   "globals": {
     "document": true,
