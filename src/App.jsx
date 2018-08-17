@@ -1,16 +1,13 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 import './main.css';
+import { CoverPage } from 'components';
 
 class App extends Component {
   state = {};
 
   render() {
-    return (
-      <div>
-        <p>React here!</p>
-      </div>
-    );
+    return <CoverPage />;
   }
 }
 
