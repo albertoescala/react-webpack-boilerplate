@@ -1,49 +1,49 @@
-# React webpack 4 boilerplate
+# 🔥 React webpack 4 boilerplate 🔥
 
 This is the basic configuration you will need to start a new project.
 
-## Getting Started
+## Getting Started 🚶
 
-### Prerequisites
+### Prerequisites 🙏
 
-You don't need anything to start with this project :).
+You don't need anything to start with this project 😆.
 
-### Installing
+### Installing 📀
 
 First install all the dependencies:
 
-```
-yarn
-```
-or
-```
-npm install
-```
+`yarn` or `npm install`
 
-## Deployment
+## Deployment 🎬
 
 Development:
+
 ```
 yarn start
 ```
 
 Production:
+
 ```
 yarn build
 ```
 
-## Built With
+## Features ✔️
 
-* [React](https://reactjs.org/) - The web framework used
-* [Webpack 4](https://webpack.js.org/) - Module bundler
-* [Babel](https://rometools.github.io/rome/) - Compiler to ES6
+- React, ES6 & Babel 6
+- Lint with ESlint and Airbnb's style sheet
+- React Router 4
+- Use Commitizen to manage a commit convention
+- Support git hook pre-commit used to lint and test your code
+- Build with Webpack 4
+- Atomic Design file structure
+- Use [Styled components](https://github.com/styled-components/styled-components)
+- Use [Prettier](https://github.com/prettier/prettier) code formatter
 
-## Authors
+## Authors 🙈
 
-* **Alberto Escala** - *Initial work* - [Github](https://github.com/albertoescala)
+- **Alberto Escala** - _Initial work_ - [Github](https://github.com/albertoescala)
 
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
-
-## License
+## License 📃
 
 This project is licensed under the MIT License.
