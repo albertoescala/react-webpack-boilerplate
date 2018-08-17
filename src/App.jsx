@@ -1,15 +1,16 @@
-import React, { Component } from 'react';
-import ReactDOM from 'react-dom';
+import React from 'react';
+import { Route } from 'react-router-dom';
+import routes from 'config/routes';
 import './main.css';
-import { CoverPage } from 'components';
 
-class App extends Component {
-  state = {};
+const RouteWithSubRoutes = route => (
+  <Route
+    path={route.path}
+    render={props => <route.component {...props} routes={route.routes} />}
+  />
+);
 
-  render() {
-    return <CoverPage />;
-  }
-}
+const App = () =>
+  routes.map(route => <RouteWithSubRoutes key={route.path} {...route} />);
 
 export default App;
-ReactDOM.render(<App />, document.getElementById('root'));
